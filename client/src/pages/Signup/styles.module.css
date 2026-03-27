@@ -1,0 +1,117 @@
+.signup_container {
+  width: 100%;
+  min-height: 100vh; 
+  background-color: #f5f5f5; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+/* główne okno rejestracji */
+.signup_form_container {
+  width: 1000px;
+  max-width: 95vw;
+  height: 520px;
+  display: flex;
+  border-radius: 12px;
+  overflow: hidden;              /* żeby gradient nie wychodził poza rogi */
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+
+/* lewy panel (powitanie + przycisk) */
+.left {
+  flex: 2; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #8a2be2 0%, #3bb19b 100%); 
+  padding: 20px;
+}
+
+/* nagłówek po lewej */
+.left h1 {
+  margin-top: 0;
+  color: white;
+  font-size: 50px; 
+  align-self: center;
+  text-align: center;
+}
+
+/* prawy panel (formularz) */
+.right {
+  flex: 2; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+}
+
+.input {
+  outline: none;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #edf5f3;
+  margin: 6px 0;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.error_msg {
+  padding: 15px;
+  margin: 6px 0;
+  font-size: 14px;
+  background-color: #f34646;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+/* układ pól formularza */
+.form_container {
+  width: 100%;
+  max-width: 500px;     /* kontrola szerokości formularza */
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* nagłówek formularza */
+.form_container h1 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+/* pola input */
+.input,
+.error_msg {
+  width: 100%;
+}
+
+
+/* wspólne ustawienia dla przycisków */
+.white_btn,
+.green_btn {
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  background-color: white;
+  border-radius: 20px;
+  width: 180px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* przycisk rejestracji */
+.green_btn {
+  background-color: #8a2be2;
+  color: white;
+  margin: 10px;
+}

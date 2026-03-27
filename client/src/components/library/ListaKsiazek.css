@@ -1,0 +1,111 @@
+.table-wrapper {
+  width: 98%; /* prawie pełna szerokość */
+  margin: 40px auto; /* odstęp od góry + centrowanie */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1); /* mocniejszy cień */
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden; /* ucina rogi tabeli do radius */
+}
+
+.books-table {
+  width: 100%;
+  table-layout: fixed; /* stałe szerokości kolumn (np. z colgroup) */
+  border-collapse: collapse;
+}
+
+/* komórki */
+.books-table th,
+.books-table td {
+  padding: 35px 20px; /* duży padding = większa wysokość wierszy */
+  font-size: 20px;
+  vertical-align: middle;
+  border-bottom: 2px solid #f0f0f0;
+  text-align: center;
+}
+
+/* nagłówki tabeli */
+.books-table th {
+  background-color: #ede9fe;
+  font-weight: 800;
+  font-size: 22px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* pasy dla czytelności */
+.books-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* hover na wierszu */
+.books-table tr:hover {
+  background-color: #f1fcf9;
+}
+
+/* przyciski w kolumnie akcji */
+.actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.actions .btn {
+  padding: 10px 18px; /* większe klikane pole */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* większy nagłówek strony */
+h1.display-4 {
+  font-size: 4rem;
+  color: #333;
+  margin-top: 40px;
+}
+
+.btn-lg {
+  font-size: 1.5rem !important;
+  border-width: 3px !important;
+  border-radius: 15px !important;
+  transition: all 0.3s ease;
+}
+
+.btn-lg:hover {
+  transform: scale(1.05);
+}
+
+/* alerty */
+.alert {
+  font-size: 1.4rem;
+  padding: 20px;
+  width: 60%;
+  margin: 20px auto;
+}
+
+/* tytuł sekcji nad tabelą */
+.big-title {
+  font-size: 4.5rem !important;
+  font-weight: 800;
+  margin-bottom: 50px !important;
+  margin-top: 30px;
+  color: #2c3e50;
+}
+
+/* duże przyciski nawigacyjne nad tabelą */
+.big-nav-btn {
+  font-size: 1.8rem !important;
+  padding: 20px 50px !important;
+  border-width: 4px !important;
+  border-radius: 20px !important;
+  font-weight: bold !important;
+  transition: transform 0.2s;
+}
+
+.big-nav-btn:hover {
+  transform: scale(1.05);
+}
+
+/* odstęp między przyciskami a tabelą */
+.button-container {
+  margin-bottom: 60px;
+}

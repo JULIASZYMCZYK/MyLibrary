@@ -1,0 +1,122 @@
+.login_container {
+  width: 100%;
+  min-height: 100vh; /* pełna wysokość ekranu */
+  background-color: white;
+  display: flex;
+  align-items: center; /* wyśrodkowanie w pionie */
+  justify-content: center; /* wyśrodkowanie w poziomie */
+}
+
+/* główne okno logowania */
+.login_form_container {
+  width: 1100px; /* szerokie, wygodne okno */
+  height: 650px; /* większa wysokość */
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* lewa strona z formularzem */
+.left {
+  flex: 1.5; /* lekko szersza część */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 20px;
+}
+
+/* kontener formularza */
+.form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* nagłówek formularza */
+.form_container h1 {
+  font-size: 50px; /* duży, czytelny tytuł */
+  margin-bottom: 30px;
+}
+
+/* nagłówek po prawej stronie */
+.right h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+/* pola input */
+.input {
+  outline: none;
+  border: none;
+  width: 450px; /* dopasowane do szerokości okna */
+  padding: 20px; /* większa wysokość pola */
+  border-radius: 12px;
+  background-color: #edf5f3;
+  margin: 10px 0;
+  font-size: 18px; /* większy tekst */
+}
+
+/* komunikat błędu */
+.error_msg {
+  width: 450px;
+  padding: 15px;
+  margin: 5px 0;
+  font-size: 16px;
+  background-color: #f34646;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* prawa strona (rejestracja) */
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #8a2be2 0%, #3bb19b 100%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+}
+
+/* tekst po prawej */
+.right h1 {
+  margin-top: 0;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+/* przyciski */
+.white_btn,
+.green_btn {
+  border: none;
+  outline: none;
+  padding: 18px 0; /* większy przycisk */
+  background-color: white;
+  border-radius: 30px;
+  width: 220px;
+  font-weight: bold;
+  font-size: 20px; /* duży tekst */
+  cursor: pointer;
+}
+
+/* efekt hover */
+.white_btn:hover,
+.green_btn:hover {
+  transform: scale(1.05);
+}
+
+/* przycisk logowania */
+.green_btn {
+  background-color: #8a2be2;
+  color: white;
+  margin: 25px 0;
+}

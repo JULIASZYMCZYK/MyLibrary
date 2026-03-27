@@ -1,0 +1,92 @@
+form {
+  padding: 40px;          
+  border: 1px solid #ddd;
+  border-radius: 12px;    
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+  background-color: white
+}
+
+/* Powiększenie etykiet (np. Tytuł, Autor) */
+label.form-label {
+  font-size: 2rem;      
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Powiększenie pól tekstowych i selectów */
+input[type="text"],
+.form-control,
+select {
+  padding: 12px 16px;    
+  font-size: 2rem;     
+  border-radius: 8px;
+}
+
+/* Powiększenie przycisku na dole */
+input[type="submit"] {
+  background-color: #3bb19b;
+  color: white;
+  border: none;
+  padding: 15px 30px;    
+  font-size: 1.2rem;     
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;          
+}
+
+/* Gwiazdki */
+.form-group .btn-link {
+    font-size: 3.5rem !important;    
+    text-decoration: none !important; 
+    line-height: 1;               
+    padding: 0 5px !important;     
+    color: #ffc107 !important;     
+}
+
+.form-group .ms-2.text-muted {
+    font-size: 1.5rem !important;
+    vertical-align: middle;
+}
+
+summary {
+  font-size: 1.8rem;
+  padding: 10px 0;
+}
+
+
+/* Kontener dla opcji */
+.form-check {
+    display: flex;
+    align-items: center; 
+    padding-left: 0;
+    margin-bottom: 15px; 
+}
+
+/* Sama kratka */
+.form-check-input {
+    width: 1.8rem;       
+    height: 1.8rem;
+    margin-top: 0;       
+    flex-shrink: 0;      
+    cursor: pointer;
+}
+
+/* Tekst opcji */
+.form-check-label {
+    font-size: 1.8rem;   
+    line-height: 1;     
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+select option {
+  font-size: 1.5rem;
+}
+
+textarea.form-control {
+  font-size: 1.6rem;   
+  line-height: 1.4;    
+}
