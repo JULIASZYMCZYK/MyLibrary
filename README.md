@@ -1,5 +1,22 @@
 Aplikacja "Moja biblioteka"
 ## Autor: Julia Szymczyk
+
+## Zrzuty ekranu
+### Logowanie
+![Logowanie](./screenshots/log_in.png)
+
+### Rejestracja
+![Rejestracja](./screenshots/sign_up.png)
+
+### Widok książek
+![Widok książek](./screenshots/widok_ksiazek.png)
+
+### Dodawanie książki
+![Dodawanie książki](./screenshots/dodawanie_ksiazki.png)
+
+### Opcje
+![Opcje](./screenshots/opcje.png)
+
 ## Funkcjonalności:
 - uwierzytelnianie
 - rejestracja i logowanie użytkowników
