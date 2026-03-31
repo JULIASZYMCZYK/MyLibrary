@@ -31,6 +31,5 @@ Wersje programów wykorzystane do tworzenia aplikacji (aplikacja nie została pr
 Serwer (folder server) musi być uruchomiony, aby aplikacja działała poprawnie. 
 Klient (folder client) komunikuje się z backendem poprzez API.
 ## Konta testowe
-Login: ala13@wp.pl 
-Hasło: Kocur123!
-Można również stworzyć własne konto podając przykładowy email i hasło, a konto i biblioteka zostaną stworzone
+Login: testowy@wp.pl 
+Hasło: Testowe_konto123
